@@ -1,0 +1,50 @@
+[
+    {
+        "id": "piedra-filosofal-libro",
+        "nombre": "Libro Piedra Filosofal",
+        "precio": 13000,
+        "imagen": "LIBROS/LibroPiedraFilosofal.png"
+    },
+    {
+        "id": "camara-secreta-libro",
+        "nombre": "Libro Cámara Secreta",
+        "precio": 13000,
+        "imagen": "LIBROS/LibroCamaraSecreta.png"
+    },
+    {
+        "id": "prisionero-libro",
+        "nombre": "Libro Prisionero de Azkabam",
+        "precio": 13000,
+        "imagen": "LIBROS/LibroPrisionero.png"
+    },
+    {
+        "id": "caliz-fuego-libro",
+        "nombre": "Libro Cáliz De Fuego",
+        "precio": 13000,
+        "imagen": "LIBROS/LibroCalizDeFuego.png"
+    },
+    {
+        "id": "orden-fenix-libro",
+        "nombre": "Libro Orden del Fénix",
+        "precio": 13000,
+        "imagen": "LIBROS/LibroOrdenDelFenix.png"
+    },
+    {
+        "id": "misterio-principe-libro",
+        "nombre": "Libro Misterio del Principe",
+        "precio": 13000,
+        "imagen": "LIBROS/LibroMisterioPrincipe.png"
+    },
+    {
+        "id": "reliquias-muerte-libro",
+        "nombre": "Libro Reliquias de la Muerte",
+        "precio": 13000,
+        "imagen": "LIBROS/LibroReliquiasMuerte.png"
+    },
+    {
+        "id": "coleccion-libros",
+        "nombre": "Coleccion de Libros + Estuche",
+        "precio": 80000,
+        "imagen": "LIBROS/LibrosColeccion.png"
+    }
+]

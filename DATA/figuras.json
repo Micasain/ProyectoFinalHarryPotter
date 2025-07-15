@@ -1,0 +1,50 @@
+[
+    {
+        "id": "harry-potter-figura",
+        "nombre": "Figura de Harry Potter",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraHarryPotter.png"
+    },
+    {
+        "id": "hermione-granger-figura",
+        "nombre": "Figura de Hermione Granger",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraHermioneGranger.png"
+    },
+    {
+        "id": "ron-weasley-varita",
+        "nombre": "Figura de Ron Weasley",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraRonWeasley.png"
+    },
+    {
+        "id": "severus-snape-figura",
+        "nombre": "Figura de Severus Snape",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraSeverusSnape.png"
+    },
+    {
+        "id": "peter-pettigrew-figura",
+        "nombre": "Figura de Peter Pettigrew",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraPeterPettigrew.png"
+    },
+    {
+        "id": "draco-malfoy-figura",
+        "nombre": "Figura de Draco Malfoy",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraDracoMalfoy.png"
+    },
+    {
+        "id": "voldemort-figura",
+        "nombre": "Figura de Voldemort",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraLordVoldemort.png"
+    },
+    {
+        "id": "dobby-figura",
+        "nombre": "Figura de Elfo Dobby",
+        "precio": 30000,
+        "imagen": "FIGURAS/FiguraDobby.png"
+    }
+]

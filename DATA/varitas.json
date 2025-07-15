@@ -1,0 +1,50 @@
+[
+    {
+        "id": "harry-potter-varita",
+        "nombre": "Varita de Harry Potter",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritasHarryPotter.png"
+    },
+    {
+        "id": "hermione-granger-varita",
+        "nombre": "Varita de Hermione Granger",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritaHermione.png"
+    },
+    {
+        "id": "ron-weasley-varita",
+        "nombre": "Varita de Ron Weasley",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritaRonWeasly.png"
+    },
+    {
+        "id": "severus-snape-varita",
+        "nombre": "Varita de Severus Snape",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritaSeverusSnape.png"
+    },
+    {
+        "id": "sirius-black-varita",
+        "nombre": "Varita de Sirius Black",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritaSiriusBlack.png"
+    },
+    {
+        "id": "lucius-malfoy-varita",
+        "nombre": "Varita de Lucius Malfoy",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritaLuciusMalfoy.png"
+    },
+    {
+        "id": "voldemort-varita",
+        "nombre": "Varita de Lord Voldemort",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritaVoldemort.png"
+    },
+    {
+        "id": "viktor-krum-varita",
+        "nombre": "Varita de Viktor Krum",
+        "precio": 39900,
+        "imagen": "VARITAS/ImagenesVaritas/VaritaViktorKrum.png"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "gryffindor-tunica",
+        "nombre": "Túnica de Gryffindor",
+        "precio": 15000,
+        "imagen": "TUNICAS/TunicaGryffindor.png"
+    },
+     {
+        "id": "ravenclaw-tunica",
+        "nombre": "Túnica de Ravenclaw",
+        "precio": 15000,
+        "imagen": "TUNICAS/TunicaRavenclaw.png"
+    },
+    {
+        "id": "slytherin-tunica",
+        "nombre": "Túnica de Slytherin",
+        "precio": 15000,
+        "imagen": "TUNICAS/TunicaSlytherin.png"
+    },
+    {
+        "id": "hufflepuf-tunica",
+        "nombre": "Túnica de Hufflepuf",
+        "precio": 15000,
+        "imagen": "TUNICAS/TunicaHufflepuf.png"
+    },
+    {
+        "id": "gryffindor-tunica-niño",
+        "nombre": "Túnica Gryffindor para Niños",
+        "precio": 10000,
+        "imagen": "TUNICAS/TunicaNiñoGryffindor.png"
+    },
+      {
+        "id": "ravenclaw-tunica-niño",
+        "nombre": "Túnica Ravenclaw para Niños",
+        "precio": 10000,
+        "imagen": "TUNICAS/TunicaNiñoRavenclaw.png"
+    },
+    {
+        "id": "slytherin-tunica-niño",
+        "nombre": "Túnica Slytherin para Niños",
+        "precio": 10000,
+        "imagen": "TUNICAS/TunicaNiñoSlytherin.png"
+    },
+    {
+        "id": "hufflepuff-tunica-niño",
+        "nombre": "Túnica Hufflepuff para Niños",
+        "precio": 10000,
+        "imagen": "TUNICAS/TunicaNiñoHufflepuff.png"
+    }
+]

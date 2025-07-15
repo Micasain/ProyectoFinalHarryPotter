@@ -1,0 +1,326 @@
+/* FUENTE HARRY POTTER */
+@font-face {
+    font-family: 'Harry P';
+    src: url('../FUENTES/TipografiaHP.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CAMBIOS ENCABEZADO */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: 'Harry P', sans-serif;
+    color: #D4AF37;
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.logo-chico {
+    max-width: 50px;
+    height: auto;
+    margin: 0;
+}
+
+/* CAMBIO BODY */
+
+body {
+    margin: 0;
+    background-image: url(../MEDIA/FondoPagina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+nav {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none; 
+    cursor: pointer;
+}
+
+.menu-toggle .menu-icon-img {
+    width: 30px; 
+    height: 30px;
+}
+
+.nav-principal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav-principal li {
+    margin: 0 15px;
+}
+
+.nav-principal li a {
+    text-decoration: none;
+    color: #f0ead6;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-principal li a:hover {
+    color: #D4AF37;
+}
+
+.carrito-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.carrito-nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f0ead6;
+    font-size: 1em;
+}
+
+.carrito-nav img {
+    width: 30px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.carrito-nav a:hover {
+    color: #D4AF37;
+}
+
+/* CONTADOR DEL CARRITO EN LA NAVEGACIÓN */
+
+.contador-carrito {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.7em;
+    position: relative;
+    top: -10px;
+    right: 10px;
+    display: none;
+    min-width: 15px;
+    text-align: center;
+    line-height: 15px;
+    box-sizing: border-box;
+}
+
+.comprar-btn {
+    background-color: #a88734;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+    display: inline-block; 
+}
+
+.comprar-btn:hover {
+    background-color: #f0c14b;
+    transform: scale(1.05);
+}
+
+/* CAMBIOS EN EL FOOTER */
+
+footer {
+    width: 100%;
+    color: #f0c808;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.footer-linea {
+    width: 100vw;
+    height: 3px;
+    background: linear-gradient(270deg, #d4af37, #f0c808, #d4af37);
+    background-size: 400% 400%;
+    animation: brilloMagico 4s ease infinite;
+    box-shadow: 0 0 10px #f0c808aa;
+    margin-bottom: 20px;
+    border: none;
+}
+
+@keyframes brilloMagico {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.footer-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+}
+
+.iconos-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.iconos-sociales a img {
+    width: 24px; 
+    height: 24px;
+    text-align: center;
+}
+
+.footer-contenido p {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* CAMBIOS PARA CELULARES  */
+
+
+@media (max-width: 768px) {
+    
+ /* HEADER EN MÓVILES */
+
+    header {
+         flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px 20px; 
+        width: 100%; 
+        box-sizing: border-box; 
+        position: fixed; 
+        top: 0; 
+        left: 0;
+        z-index: 1001;
+    }
+
+    header h1 {
+         font-size: 2em; 
+        flex-grow: 1;
+        text-align: center; 
+        margin-right: -40px;
+    }
+
+    .logo-header { 
+        display: block; 
+    }
+
+    .logo-chico {
+        max-width: 40px; 
+        height: auto;
+    }
+
+    /* NAVEGACIÓN EN MÓVILES */
+
+    nav.main-nav {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px 20px;
+        position: fixed; 
+        top: 60px; 
+        left: 0;
+        width: 100%;
+        background-color: #1e1e1e; 
+        z-index: 1000; 
+        box-sizing: border-box; 
+    }
+
+    .menu-toggle {
+        display: block; 
+        cursor: pointer; 
+        padding: 5px; 
+    }
+
+    .menu-icon-img {
+        display: block; 
+        width: 40px; 
+        height: auto;
+    }
+
+  
+    .nav-principal {
+        flex-direction: column; 
+        width: 100%; 
+        text-align: center; 
+        background-color: #1e1e1e;
+        position: absolute; 
+        top: 100%; 
+        left: 0;
+        display: none; 
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.5); 
+        box-shadow: none; 
+        border: none;     
+        outline: none;    
+        margin: 0;
+        top: 60px; 
+        padding: 10px 15px; 
+        min-height: auto;
+    }
+
+    .nav-principal.active {
+        display: flex; 
+    }
+
+    .nav-principal li {
+        margin: 10px 0; 
+    }
+
+    .comprar-btn {
+    padding: 5px 11px; 
+    font-size: 0.7em;
+    }
+
+    .carrito-nav {
+        display: flex; 
+        align-items: center; 
+    }
+
+    .carrito-nav img {
+        width: 30px;
+        height: auto;
+    }
+
+    body {
+        padding-top: 120px;
+    }
+
+}

@@ -1,0 +1,82 @@
+/* CAMBIOS PERSONALIZADOS DE LA PÁGINA */
+
+.seccion-libros h2 {
+    font-family: 'Harry P', sans-serif;
+    color: #ffd277;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4.0em;
+}
+
+.listado-libros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.producto-libros {
+    background-color: #1e1a13;
+    border: 1px solid #332d24;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.producto-libros:hover {
+    transform: translateY(-5px); 
+}
+
+.producto-libros img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.producto-libros h3 {
+    color: #ffd277;
+    font-size: 1.2em;
+    margin-bottom: -15px;
+}
+
+.producto-libros p.precio {
+    color: #c9a767;
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-family: 'Harry P', sans-serif;
+}
+
+
+/* CAMBIOS MEDIA */
+
+@media (min-width: 768px) {
+    .listado-libros {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 60px; 
+        padding: 20px; 
+    }
+}
+@media (min-width: 1024px) {
+    .listado-libros {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+@media (min-width: 768px) {
+    .listado-libros {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 60px; 
+        padding: 20px; 
+    }
+}
+@media (min-width: 1024px) {
+    .listado-libros {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
