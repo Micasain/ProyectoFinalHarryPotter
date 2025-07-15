@@ -276,22 +276,22 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // CARGAR VARITAS //
     if (document.querySelector('.listado-varitas')) {
-        loadProducts('data/varitas.json', '.listado-varitas', 'producto-varitas'); 
+        loadProducts('DATA/varitas.json', '.listado-varitas', 'producto-varitas'); 
     }
 
     // CARGAR FIGURAS //
     if (document.querySelector('.listado-figuras')) {
-        loadProducts('data/figuras.json', '.listado-figuras', 'producto-figura');
+        loadProducts('DATA/figuras.json', '.listado-figuras', 'producto-figura');
     }
 
     // CARGAR TÚNICAS //
     if (document.querySelector('.listado-tunicas')) {
-        loadProducts('data/tunicas.json', '.listado-tunicas', 'producto-tunicas');
+        loadProducts('DATA/tunicas.json', '.listado-tunicas', 'producto-tunicas');
     }
 
     // CARGAR LIBROS //
     if (document.querySelector('.listado-libros')) {
-        loadProducts('data/libros.json', '.listado-libros', 'producto-libros');
+        loadProducts('DATA/libros.json', '.listado-libros', 'producto-libros');
     }
 });
 
